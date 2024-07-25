@@ -1,4 +1,4 @@
-# Sentiment-Analysis-NLP-Project# Sentiment Analysis Project
+
 
 This project is an implementation of NLP sentiment analysis using Flask for the API. The model analyzes text input and outputs sentiment scores indicating positive or negative sentiment.
 
