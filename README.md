@@ -1,4 +1,4 @@
-
+# NLP Sentiment Analysis with Flask
 
 This project is an implementation of NLP sentiment analysis using Flask for the API. The model analyzes text input and outputs sentiment scores indicating positive or negative sentiment.
 
@@ -10,12 +10,11 @@ This project is an implementation of NLP sentiment analysis using Flask for the 
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Usage](#usage)
-
-
+- [API Endpoints](#api-endpoints)
 
 ## Introduction
 
-This project demonstrates sentiment analysis using Natural Language Processing (NLP). It processes input text and predicts whether the sentiment is positive or negative. The application is built using Flask, and the API can be run locally.
+This project demonstrates sentiment analysis using Natural Language Processing (NLP). It processes input text and predicts whether the sentiment is positive or negative. The application is built using Flask, and the API can be run locally. The project also includes a user interface for easy interaction.
 
 ## Features
 
@@ -23,6 +22,7 @@ This project demonstrates sentiment analysis using Natural Language Processing (
 - Simple and intuitive API
 - Lightweight Flask application
 - JSON-based API responses
+- User interface for sentiment prediction using HTML and CSS
 
 ## Technologies Used
 
@@ -31,8 +31,10 @@ This project demonstrates sentiment analysis using Natural Language Processing (
 - Flask
 - Natural Language Toolkit (NLTK)
 - Scikit-learn
+- HTML/CSS
 
 ## Dataset
+
 - Download data from [Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140)
 
 ## Installation
@@ -65,6 +67,9 @@ This project demonstrates sentiment analysis using Natural Language Processing (
     Open your web browser or API client and navigate to `http://127.0.0.1:5000/`.
 
 3. **User Interface:**
-   After running the Flask app and navigating to the link above, the template file will be executed, taking you to the user interface. Here, you can input your statement and click the "Predict" button to get your output.
+    After running `app.py` and navigating to the provided link, a template file will be executed that takes you to the user interface created using HTML and CSS. Here, you can input your statement, and upon clicking the "Predict" button, you will receive the sentiment analysis output directly on the page.
 
+## API Endpoints
+
+- **`/predict`**: Accepts text input and returns the sentiment score (positive or negative).
 
