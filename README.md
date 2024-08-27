@@ -10,7 +10,7 @@ This project is an implementation of NLP sentiment analysis using Flask for the 
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
+
 
 
 ## Introduction
@@ -63,5 +63,8 @@ This project demonstrates sentiment analysis using Natural Language Processing (
     ```
 2. **Access the API:**
     Open your web browser or API client and navigate to `http://127.0.0.1:5000/`.
+
+3. **User Interface:**
+   After running the Flask app and navigating to the link above, the template file will be executed, taking you to the user interface. Here, you can input your statement and click the "Predict" button to get your output.
 
 
